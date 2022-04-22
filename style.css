@@ -1,0 +1,96 @@
+:root {
+  --green: #A0E76F;
+  --pink: #AB0097;
+  --red: #E71142;
+}
+
+* {
+  margin: 0px;
+  list-style: none;
+}
+
+html {
+  background-color: var(--green);
+}
+
+body {
+  min-width: 675px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.albums {
+  display: flex;
+  margin: 40px auto;
+}
+
+ul {
+  padding: 0 35%;
+}
+
+ul img {
+  width: 100px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+a {
+  font-size: 30px;
+  color: var(--pink);
+}
+
+.home {
+  text-align: center;
+}
+
+#homecoming {
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+  color: var(--pink);
+}
+
+h1 {
+  color: var(--red);
+  font-size: 50px;
+  display: inline-block;
+  text-align: center;
+}
+
+p {
+  color: var(--pink);
+  font-size: 20px;
+}
+
+img {
+  width: 500px;
+  height: auto;
+  float: right;
+}
+
+figure {
+  margin: 10px;
+}
+
+figcaption {
+  margin: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+@media screen and (max-width: 760px) {
+  img {
+    width: 300px;
+    height: auto;
+    float: right;
+  }
+
+}
+
