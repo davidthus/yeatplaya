@@ -94,3 +94,20 @@ figcaption {
 
 }
 
+@media screen and (min-width: 1200px) {
+  img {
+    width: 500px;
+    height: auto;
+    float: right;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 500px;
+  }
+}
+
+
