@@ -68,6 +68,10 @@ img {
   float: right;
 }
 
+span {
+  color: var(--red);
+}
+
 figure {
   margin: 10px;
 }
