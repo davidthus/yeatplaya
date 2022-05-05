@@ -45,9 +45,13 @@ a {
 
 #homecoming {
   font-size: 1rem;
-  font-weight: bold;
   display: block;
   color: var(--pink);
+}
+
+.switch {
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 h1 {
